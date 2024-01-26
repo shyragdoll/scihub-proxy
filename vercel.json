@@ -1,0 +1,5 @@
+{
+    "rewrites": [
+      { "source": "/:match/:url*", "destination": "https://sci-hub.ee/:match/:url*" }
+    ]
+}
