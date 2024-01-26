@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scihub代理</title>
+</head>
+<body>
+    <input type="text" placeholder="请输入DOI号" id="doi">
+    <button onclick="down()">下载PDF</button>
+    <script>
+        function down(){
+            let doi = document.getElementById("doi").value.trim();
+            window.location.href = `https://proxy.booksci.cn/${doi}`;
+        }
+    </script>
+</body>
+</html>
