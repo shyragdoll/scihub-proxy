@@ -1,5 +1,5 @@
 {
     "rewrites": [
-      { "source": "/:match/:url*", "destination": "https://sci-hub.se/:match/:url*" }
+      { "source": "/:match/:url*", "destination": "https://sci-hub.in/:match/:url*" }
     ]
 }
